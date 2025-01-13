@@ -1,6 +1,8 @@
 # 2048 Game
 
 A Python implementation of the popular 2048 game using Pygame.
+
+
 ![image alt](https://github.com/ishimweemmanuel/2048/blob/main/Screenshot%202025-01-13%20134039.png?raw=true)
 
 ## How to Play
