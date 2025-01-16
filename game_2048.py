@@ -335,6 +335,7 @@ class Game2048:
                     if 0 <= ni < GRID_SIZE and 0 <= nj < GRID_SIZE:
                         if self.grid[ni][nj] == value:
                             return False
+
         return True
 
 def main():
