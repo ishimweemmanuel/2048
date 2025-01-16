@@ -1,5 +1,6 @@
 import pygame
 import random
+
 import numpy as np
 
 # Initialize Pygame
@@ -356,6 +357,7 @@ def main():
                 if game.game_over_state:
                     # Check if restart button is clicked
                     button_width = game.width // 4
+
                     button_height = game.height // 12
                     button_x = game.width//2 - button_width//2
                     button_y = game.height//2 + 20
@@ -369,6 +371,7 @@ def main():
                     grid_width = GRID_SIZE * game.cell_size + (GRID_SIZE - 1) * game.cell_padding
                     grid_height = grid_width
                     grid_x = (game.width - grid_width) // 2
+
                     grid_y = game.header_height + game.grid_padding
                     
                     if grid_x <= pos[0] <= grid_x + grid_width and \
