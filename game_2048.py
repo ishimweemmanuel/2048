@@ -111,6 +111,7 @@ class Game2048:
                 })
 
     def draw_rounded_rect(self, surface, color, rect, radius):
+
         """Draw a rounded rectangle"""
         pygame.draw.rect(surface, color, rect, border_radius=radius)
 
@@ -298,6 +299,7 @@ class Game2048:
         if not np.array_equal(original_grid, self.grid):
             self.add_new_tile()
 
+
     def _move_tile(self, i, j, di, dj, merged):
         if self.grid[i][j] == 0:
             return
@@ -310,6 +312,7 @@ class Game2048:
             next_i, next_j = ni + di, nj + dj
             if not (0 <= next_i < GRID_SIZE and 0 <= next_j < GRID_SIZE):
                 break
+
             if self.grid[next_i][next_j] == 0:
                 ni, nj = next_i, next_j
             elif self.grid[next_i][next_j] == value and not merged[next_i][next_j]:
