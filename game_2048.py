@@ -26,6 +26,7 @@ HEADER_COLOR = (143, 122, 102)  # New header color
 
 # Color scheme for different numbers
 TILE_COLORS = {
+
     0: (205, 193, 180),
     2: (238, 228, 218),
     4: (237, 224, 200),
