@@ -122,6 +122,7 @@ class Game2048:
 
         # Draw tile with rounded corners
         self.draw_rounded_rect(
+
             self.screen,
             TILE_COLORS.get(value, TILE_COLORS[2048]),
             (pos_x, pos_y, self.cell_size, self.cell_size),
@@ -273,7 +274,9 @@ class Game2048:
 
         if direction in ['UP', 'DOWN']:
             for i in range(GRID_SIZE):
+
                 for j in range(GRID_SIZE):
+
                     if direction == 'UP':
                         self._move_tile(GRID_SIZE - 1 - j, i, -1, 0, merged)
                     else:  # DOWN
