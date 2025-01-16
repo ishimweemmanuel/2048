@@ -13,6 +13,7 @@ GRID_SIZE = 4
 MIN_CELL_SIZE = 50
 GRID_RATIO = 0.65  # Grid will take up 65% of the window height
 
+
 # Colors
 BACKGROUND = (250, 248, 239)  # Lighter background
 GRID_BACKGROUND = (187, 173, 160)
@@ -219,6 +220,7 @@ class Game2048:
         # Draw grid
         for i in range(GRID_SIZE):
             for j in range(GRID_SIZE):
+
                 self.draw_tile(self.grid[i][j], i, j)
 
         # Draw game over screen if game is over
