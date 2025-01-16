@@ -345,6 +345,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
+
             elif event.type == pygame.VIDEORESIZE:
                 game.handle_resize(event)
             elif event.type == pygame.MOUSEBUTTONDOWN:
