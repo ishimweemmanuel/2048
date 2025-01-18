@@ -12,11 +12,13 @@ DEFAULT_WIDTH = 800
 DEFAULT_HEIGHT = 800
 GRID_SIZE = 4
 MIN_CELL_SIZE = 50
+
 GRID_RATIO = 0.65  # Grid will take up 65% of the window height
 
 
 # Colors
 BACKGROUND = (250, 248, 239)  # Lighter background
+
 GRID_BACKGROUND = (187, 173, 160)
 EMPTY_CELL = (205, 193, 180)
 FONT_COLOR = (119, 110, 101)
