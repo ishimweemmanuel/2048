@@ -11,6 +11,7 @@ MINIMUM_SIZE = 600
 DEFAULT_WIDTH = 800
 DEFAULT_HEIGHT = 800
 GRID_SIZE = 4
+
 MIN_CELL_SIZE = 50
 
 GRID_RATIO = 0.65  # Grid will take up 65% of the window height
